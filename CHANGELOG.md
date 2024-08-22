@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/berishaerblin/webappanalyzer/compare/1.1.0...1.1.1) (2024-08-22)
+
+
+### Bug Fixes
+
+* this will be a patch ([0b9a66d](https://github.com/berishaerblin/webappanalyzer/commit/0b9a66d837e9dea7af35ed499e18cf80ddda01af))
+
 # [1.1.0](https://github.com/berishaerblin/webappanalyzer/compare/1.0.0...1.1.0) (2024-08-22)
 
 

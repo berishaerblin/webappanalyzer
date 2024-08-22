@@ -38,6 +38,7 @@ class IconValidator:
                     json_icons.add(value)
         return json_icons
 
+print("test")
 
 if __name__ == '__main__':
     IconValidator().validate()

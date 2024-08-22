@@ -1,3 +1,17 @@
+# [1.1.0](https://github.com/berishaerblin/webappanalyzer/compare/1.0.0...1.1.0) (2024-08-22)
+
+
+### Bug Fixes
+
+* added node_modules to .gitignore ([0d417a1](https://github.com/berishaerblin/webappanalyzer/commit/0d417a18270336373174ba799aa8b108ad1533f2))
+* removed test code on icon_path_validator ([95e7f03](https://github.com/berishaerblin/webappanalyzer/commit/95e7f0317e771a519f63c87abbf2c877845576b0))
+
+
+### Features
+
+* add new feature for user authentication ([61b6de4](https://github.com/berishaerblin/webappanalyzer/commit/61b6de445a4a34459754dd37dc1bfe6a5590ad9f))
+* add new feature for user authentication ([b5c5f5f](https://github.com/berishaerblin/webappanalyzer/commit/b5c5f5f71c677a59dfe948148696b3837412bb12))
+
 # 1.0.0 (2024-08-22)
 
 

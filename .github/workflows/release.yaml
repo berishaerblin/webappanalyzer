@@ -44,7 +44,7 @@ jobs:
         if: github.event_name == 'push'
         uses: peter-evans/create-pull-request@v6.1.0
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.RELEASE_TOKEN }}
           branch: ${{ env.BRANCH_NAME }}
           commit-message: "Release: Create pull request for release"
           title: "Release: Automated release PR"

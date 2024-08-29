@@ -34,12 +34,14 @@ jobs:
       - name: Verify the integrity of provenance attestations and registry signatures for installed dependencies
         run: npm audit signatures
       - name: Create Release Branch
+        if: github.event_name == 'push'
         run: |
           BRANCH_NAME="release-$(date +'%Y%m%d%H%M%S')"
           echo "BRANCH_NAME=$BRANCH_NAME" >> $GITHUB_ENV
           git checkout -b $BRANCH_NAME
           git push origin $BRANCH_NAME
       - name: Create Pull Request
+        if: github.event_name == 'push'
         uses: peter-evans/create-pull-request@v6.1.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
